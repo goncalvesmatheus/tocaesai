@@ -234,6 +234,7 @@ p {
     margin-left: auto;
 }
 
+
 /* Border contact */
 .bot-left{
   position: relative;
@@ -279,6 +280,12 @@ p {
   margin: 2%;
   font-weight: bold;
   color: black;
+}
+
+.transbox i {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
 }
 /* End background .Sec1 */
 
@@ -344,5 +351,4 @@ a .icon {
   text-decoration: none;
   color: white;
 }
-
 /* End footer */
