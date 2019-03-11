@@ -74,7 +74,6 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
@@ -103,7 +102,7 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
+  margin-top: 32px;
   margin-bottom: 1rem;
 }
 
@@ -159,8 +158,8 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -363,7 +362,6 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
 }
 
 h1, .h1 {
@@ -420,10 +418,9 @@ h6, .h6 {
 }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: -80px 200px 90px 230px;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #8E8E8E;
 }
 
 small,
@@ -585,7 +582,7 @@ pre code {
   margin-left: auto;
 }
 
-.row {
+.rowboot {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -2916,14 +2913,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
-  border-color: #343a40;
+  color: black;
+  border-color: black;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
